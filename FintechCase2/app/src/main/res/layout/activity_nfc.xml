@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Приложите телефон к NFC-метке"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/imag1"
+        />
+
+    <ImageView
+
+        android:layout_marginLeft="30dp"
+        android:id="@+id/imag1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/nav_header_desc"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_centerVertical="true"
+        android:src="@drawable/nfcmetka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scan"
+        android:text="Сканировать метку"
+        android:textColor="#ffffff"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        android:layout_below="@+id/imag1"
+
+        />
+</RelativeLayout>

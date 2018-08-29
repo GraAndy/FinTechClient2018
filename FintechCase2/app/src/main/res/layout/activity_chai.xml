@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <Button
+        android:id="@+id/qrcod"
+        android:layout_width="match_parent"
+        android:text="QR - код"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textColor="#ffffff"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+
+        />
+
+    <Button
+        android:id="@+id/nfsmet"
+        android:layout_width="match_parent"
+        android:text="NFS - метка"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/qrcod"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textColor="#ffffff"
+
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        />
+
+    <Button
+        android:id="@+id/vruchn"
+        android:layout_width="match_parent"
+        android:text="Ввести вручную"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/qrcod"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textColor="#ffffff"
+
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+                />
+
+</RelativeLayout>

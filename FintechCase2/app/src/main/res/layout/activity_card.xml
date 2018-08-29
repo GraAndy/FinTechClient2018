@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@id/ima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Карты:"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/imag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/card1"
+        android:layout_below="@+id/ima"
+        android:layout_marginLeft="30dp"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/isp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Используется по умолчанию"
+
+        android:layout_toRightOf="@id/imag"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/ima"
+        android:textStyle="bold"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*9974"
+        android:layout_below="@id/isp"
+        android:layout_toRightOf="@id/ima"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:textColor="#ffffff"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        android:text="Добавить новую карту"
+android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/imag"
+        />
+</RelativeLayout>

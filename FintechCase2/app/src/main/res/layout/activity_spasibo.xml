@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/ima2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_marginVertical="30dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:id="@+id/ima3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:text="Начислено баллов: 50"
+        android:layout_below="@+id/ima2"
+
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ima3"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="На главную"
+        android:textColor="#ffffff"
+
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        />
+
+</RelativeLayout>

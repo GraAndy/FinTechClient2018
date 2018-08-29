@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/tex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Сканирование QR-кода"
+
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/imag1"
+        />
+
+   <EditText
+       android:id="@+id/imag1"
+       android:layout_centerHorizontal="true"
+       android:layout_centerVertical="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Введите ID-официанта"
+       android:layout_marginLeft="30dp"
+       android:layout_marginRight="30dp"
+       android:layout_marginTop="30dp"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scan"
+        android:text="Сканировать QR-код"
+        android:textColor="#ffffff"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        android:layout_below="@+id/imag1"
+
+        />
+</RelativeLayout>

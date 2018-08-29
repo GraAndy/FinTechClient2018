@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dog_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ima1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Лучинкин С.Д."
+        android:layout_toRightOf="@id/photo"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+
+        />
+
+    <TextView
+        android:id="@+id/tex3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваши бонусные баллы"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/photo"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        />
+
+
+    <TextView
+        android:id="@+id/kafe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кафе 'Финтех'"
+         android:layout_below="@+id/tex3"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+
+        />
+    <TextView
+        android:id="@+id/bal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kafe"
+        android:text="50 баллов."
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/kafe1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кафе 'FINOPOLIS'"
+        android:layout_below="@+id/tex3"
+        android:layout_marginLeft="50dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/kafe"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kafe1"
+        android:layout_toRightOf="@id/kafe"
+        android:text="50 баллов."
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:id="@+id/lub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bal"
+        android:layout_centerHorizontal="true"
+        android:text="Любимые места"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/kaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@+id/lub"
+        android:text="Кафе ФинтехЛаб"
+        />
+
+    <TextView
+        android:id="@+id/chai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kaf"
+        android:text="Чаевых сумарно:"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lub"
+        android:layout_toRightOf="@+id/kaf"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="5000 руб."
+        android:layout_marginTop="25dp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/lub1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chai"
+        android:layout_centerHorizontal="true"
+        android:text="Последние оплаты"
+        android:textColor="#FF0000"
+        android:textSize="25dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:id="@+id/kaf1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="70dp"
+        android:layout_below="@+id/lub1"
+        android:text="28 августа:"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kaf1"
+        android:text="Кафе 'Финтех'"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:id="@+id/monet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lub1"
+        android:layout_toRightOf="@+id/kaf"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:text="-500 руб."
+        android:layout_marginTop="25dp"
+        />
+
+
+
+</RelativeLayout>

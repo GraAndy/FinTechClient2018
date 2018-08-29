@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@id/ima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Карта *9974"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/imag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/card1"
+        android:layout_below="@+id/ima"
+        android:layout_marginLeft="30dp"
+
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/isp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Используется по умолчанию"
+
+        android:layout_toRightOf="@id/imag"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/ima"
+        android:textStyle="bold"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/texa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ФинтехЛаб: 500 рублей"
+        android:layout_below="@id/imag"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/texa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ФинтехЛаб: 500 рублей"
+        android:layout_below="@id/texa"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/texa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ФинтехЛаб: 500 рублей"
+        android:layout_below="@id/texa2"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffff"
+        android:elevation="6dp"
+        android:stateListAnimator="@null"
+        android:translationZ="4dp"
+        android:backgroundTint="#0091ee"
+        android:text="На главную"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/texa3"
+        />
+</RelativeLayout>
